@@ -2,7 +2,7 @@ module.exports = function towelSort (matrix) {
     let result = [];
 
     if(!matrix){
-        return result
+        return result;
     }
 
     result = matrix.map((item, index) => {
